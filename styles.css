@@ -9,6 +9,7 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     position: relative;
+    height: 100%;
 }
 
 body {
@@ -16,8 +17,15 @@ body {
     font-weight: 500;
     line-height: 1.6;
     color: #ffffff;
-    min-height: 100vh;
     background: rgba(253, 238, 153, 0.12);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation styles */
@@ -25,6 +33,7 @@ header {
     padding: 1rem 2rem;
     position: relative;
     width: 100%;
+    z-index: 1000;
 }
 
 nav {
@@ -78,7 +87,7 @@ nav {
     border: none;
     cursor: pointer;
     padding: 0.5rem;
-    z-index: 1000;
+    z-index: 1002;
 }
 
 .hamburger span {
@@ -116,7 +125,8 @@ nav {
     align-items: center;
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
-    z-index: 999;
+    z-index: 1001;
+    backdrop-filter: blur(10px);
 }
 
 .mobile-menu.active {
@@ -140,6 +150,7 @@ nav {
     background-size: 1400px auto;
     background-position: center top;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .hero-container {
@@ -162,7 +173,7 @@ nav {
 
 .hero h1 {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -174,7 +185,7 @@ nav {
 }
 
 .hero p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 500;
     opacity: 0.9;
     max-width: 550px;
