@@ -134,7 +134,7 @@ nav {
 .hero {
     width: 100%;
     position: relative;
-    min-height: calc(100vh - 100px);
+    height: 800px;
     overflow: hidden;
     background-image: url('img/hero-bg.png');
     background-size: 1400px auto;
@@ -148,7 +148,9 @@ nav {
     margin: 0 auto;
     padding: 2rem;
     position: relative;
-    min-height: calc(100vh - 100px);
+    height: 800px;
+    display: flex;
+    align-items: center;
 }
 
 .hero-content {
