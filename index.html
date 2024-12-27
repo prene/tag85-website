@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAG|85 - AI-First SaaS Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TAG|85</div>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#" class="subscribe-btn">Subscribe</a>
+                <div class="right-links">
+                    <a href="#">Products</a>
+                    <a href="#">Enterprise</a>
+                    <a href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <a href="#" class="subscribe-btn">Subscribe</a>
+            <a href="#">Products</a>
+            <a href="#">Enterprise</a>
+            <a href="#">About</a>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>&lt;TAG|85&gt;</h1>
+                <h2>AI-First SaaS Products</h2>
+                <p>We build and operate single-value SaaS products with an AI-first mentality, often catering to niche markets. Thanks to our hyper-streamlined processes we are able to operate and bring software to life that wouldn't have been economically viable in the past.</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
