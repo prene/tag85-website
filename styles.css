@@ -140,15 +140,12 @@ nav {
     height: 800px;
     overflow: hidden;
     background-image: url('img/hero-bg.png');
-    background-size: 1400px auto;
     background-position: center top;
     background-repeat: no-repeat;
     z-index: 1;
 }
 
 .hero-container {
-    max-width: 1400px;
-    width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
     position: relative;
@@ -329,7 +326,6 @@ footer {
 }
 
 .site-container {
-    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     background: rgba(253, 238, 153, 0.12);
