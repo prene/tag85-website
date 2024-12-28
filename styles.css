@@ -189,24 +189,6 @@ nav {
     display: none;
 }
 
-/* Responsive design */
-@media (max-width: 1400px) {
-    .hero {
-        background-position: center;
-    }
-    
-    .hero-container {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        max-width: 100%;
-    }
-    
-    .hero-content {
-        max-width: 50%;
-    }
-}
-
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -247,12 +229,6 @@ body::after {
 header, main {
     position: relative;
     z-index: 2;
-}
-
-@media (max-width: 1400px) {
-    .hero-container {
-        padding: 2rem;
-    }
 }
 
 /* Footer styles */
@@ -358,10 +334,3 @@ footer {
     position: relative;
     background: rgba(253, 238, 153, 0.12);
 }
-
-/* Responsive design */
-@media (max-width: 1400px) {
-    .site-container {
-        width: 100%;
-    }
-} 
