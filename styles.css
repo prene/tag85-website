@@ -496,3 +496,19 @@ footer {
         font-size: 1.1rem;
     }
 }
+
+/* Products page styles */
+.enterprise-cta .subscribe-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enterprise-cta .subscribe-btn:hover {
+    background-color: #404040;
+    color: #fff;
+    text-decoration: none;
+}

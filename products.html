@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TAG|85</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="site-container">
+        <header>
+            <nav>
+                <div class="logo"><a href="index.html">TAG|85</a></div>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-links">
+                    <a href="#" class="subscribe-btn">Newsletter</a>
+                    <div class="right-links">
+                        <a href="#" class="active">Products</a>
+                        <a href="enterprise-ai.html">Enterprise AI</a>
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <a href="#" class="subscribe-btn">Newsletter</a>
+                <a href="#" class="active">Products</a>
+                <a href="enterprise-ai.html">Enterprise AI</a>
+                <a href="about.html">About</a>
+            </div>
+        </header>
+
+        <main class="enterprise">
+            <div class="enterprise-container">
+                <div class="enterprise-content">
+                    <h1>Products</h1>
+                    <p>Stay tuned for our upcoming AI-powered products.<br> Sign up for our newsletter to be the first to know.</p>
+                    <div class="enterprise-cta">
+                        <a href="#" class="subscribe-btn">Newsletter</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <div class="footer-tagline">hi@tag85.com</div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="footer-links">
+                            <a href="#" class="active">Products</a>
+                            <a href="enterprise-ai.html">Enterprise AI</a>
+                            <a href="about.html">About</a>
+                        </div>
+                        <p class="footer-copyright">&copy; 2024 TAG|85. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
