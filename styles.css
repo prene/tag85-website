@@ -28,7 +28,7 @@ header {
     padding: 1rem 2rem;
     position: relative;
     width: 100%;
-    z-index: 1000;
+    z-index: 9999;
 }
 
 nav {
@@ -38,7 +38,7 @@ nav {
     align-items: center;
     padding: 0 2rem;
     position: relative;
-    z-index: 1001;
+    z-index: 10000;
 }
 
 .logo {
@@ -87,7 +87,7 @@ nav {
     border: none;
     cursor: pointer;
     padding: 0.5rem;
-    z-index: 1002;
+    z-index: 10001;
     position: relative;
 }
 
@@ -119,14 +119,14 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(253, 238, 153, 0.12);
+    background: rgba(253, 238, 153, 0.95);
     padding: 5rem 2rem 2rem;
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
-    z-index: 1000;
+    z-index: 9998;
     backdrop-filter: blur(10px);
 }
 
@@ -434,6 +434,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .enterprise-container {
