@@ -236,9 +236,7 @@ header, main {
 /* Footer styles */
 footer {
     width: 100%;
-    padding: 4rem 2rem;
-    background: rgba(253, 238, 153, 0.12);
-    border-top: 1px solid rgba(64, 64, 64, 0.1);
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .footer-container {
